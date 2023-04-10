@@ -1,0 +1,361 @@
+@font-face{
+    font-family: Naratif-Condensed-Font/naratif;
+    src: url(/Naratif-Condensed-Font/);
+}
+.offcanvas-header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #ccc;
+    width: 100%;
+}
+.offcanvas-body .offcanvas-line
+{
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+    transition: all 0.5s ease;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 0;
+    overflow-anchor: none;
+}
+.offcanvas-line img{
+    width: 30px;
+}
+.offcanvas-line a
+{
+    text-decoration: none;
+    color: #4A4A4A;
+    text-transform: uppercase;
+}
+.india
+{
+
+    border-radius: 20px; 
+}
+.fa-lg
+{
+    line-height: 1.05em;
+}
+.pr
+{
+    /* left: 0 auto;
+    right: 25%;
+    top: 45%; */
+}
+
+.vkc
+{
+    /* background-image: url(/PAGE-01/banner.png); */
+    background-position: center;
+    background-size: cover;
+    /* height: 100vh; */
+    width: 100%;
+}
+.text1{
+   padding-top: 15%;
+   padding-left: 50%;
+}
+@media screen and (max-width:768px){
+
+    .text1
+    {
+        padding-top: 9%;
+        
+    }
+    .text1 h1
+    {
+        font-size: 20px; 
+    }
+    .btn-1 span
+    {
+        font-size: small;
+    }
+    
+}
+
+@media screen and ( max-width:426px){
+
+    .text1
+    {
+        padding-top: 9%;
+        
+    }
+    .text1 h1
+    {
+        font-size: 18px; 
+    }
+    .btn-1
+    {
+        padding-top: 0px;
+        /* width: 180px; */
+        /* height: 50px; */
+    }
+    .btn-1 span
+    {
+        
+        font-size: 10px;
+    }
+    .btn-1 i
+    {
+        font-size: 15px;
+    }
+
+    
+}
+@media screen and ( max-width:899px){
+
+    .vodeo iframe
+    {
+        width: 150px;
+        height: 180px;
+        
+    }
+    .card-title
+    {
+        font-size: 20px;
+    }
+    .card-text
+    {
+        font-size: small;
+    }
+    .btn-2
+    {
+        padding: 0;
+    }
+    .btn-2 span
+    {
+        font-size: 10px;
+    }
+    .btn-2 i
+    {
+        font-size: 16px;
+    }
+}
+@media screen and ( max-width:326px){
+
+    .text1
+    {
+        padding-top: 9%;
+        
+    }
+    .text1 h1
+    {
+        font-size: 18px; 
+    }
+    .btn-1
+    {
+        /* padding-top: 0px; */
+    }
+    .btn-1 span
+    {
+        
+        font-size: 9px;
+    }
+    .btn-1 i
+    {
+        font-size: 14px;
+    }
+    .d-video
+    {
+        /* width: 50%; */
+        /* height: 10px; */
+        width: 100%;
+    }
+    .d-video .vodeo
+    {
+        /* width: 50%; */
+        /* height: 10vh;     */
+        margin: 0;
+        padding: 0;
+    }
+    .reddot2
+    {
+        font-size: 10px;
+    }
+    
+}
+.d-video
+{
+    padding-bottom: 100px;
+    border-bottom: 1px solid #ccc;
+}
+.cheppal-1 img
+{
+    border-radius: 30px;
+}
+.cheppal-1 img:hover
+{
+    transition: scale(0.5);
+}
+.imgovrtext
+{
+    font-size: 18px;
+    padding-left: 10px;
+    bottom: 0;
+}
+.fa-sharp
+{
+    font-size: 38px;
+}
+.reddot2
+{
+   font-size: 150px;
+
+}
+.sq
+{
+    background-color: #fff;
+}
+.card-img
+{
+    border-radius: 25px;
+}
+.card-title
+{
+    font-size: 40px;
+}
+.imgtex p
+{
+    font-size: 1vw;
+}
+
+@media screen and (max-width: 1300px)
+{
+    .imgtex p
+    {
+        font-size: vw;
+    }
+    .imgtex h5
+    {
+        font-size: 4vw;
+    }
+    .btn-3
+    {
+        width: auto;
+    }
+    .btn-3 i
+    {
+        font-size: 4vw;
+    }
+    .btn-3 span
+    {
+        /* font-size: 3vw; */
+    }
+    .imgtex-04 h5
+    {
+        font-size: 3vw;
+        break-inside: avoid;
+    }
+    .button6
+    {
+        width: 2px;
+    }
+   
+}
+@media screen and (max-width: 413px)
+{
+
+}
+.imgtex-04 h5
+{
+    line-height: 3vw;
+}
+.button6 {
+    width: 213px;
+    padding: 10px 10px;
+    border-radius: 35px;
+    border: 1px solid #4a4a4a;
+    display: flex;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+/* sotry section
+========================= */
+.bigdot
+{
+    font-size: 21.1vw;
+}
+.reddot
+{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+@media screen and (max-width:786px) {
+    
+    .card-5 h5
+    {
+        font-size: 4vw;
+        line-height: 4vw;
+    }
+    .card-5 p
+    {
+        line-height: 5vw;
+    }
+    .button6
+    {
+        font-size: 2vw;
+        width: 25vw;
+        padding: 1px 10px;
+    }
+    .reddot
+    {
+        
+    }
+    .card-5 h5
+    {
+        /* font-size: 3vw; */
+    }
+   
+}
+.ftrtop {
+    margin-top: 30px;
+}
+.mt4 {
+    margin-top: 25px;
+}
+.ftrtop li {
+    padding-bottom: 10px;
+    list-style: none;
+}
+.mt4 a {
+    color: #58595b;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.mt4 a:hover
+{
+    color: #212529;
+}
+.mt4 p{
+    color: #58595b;
+}
+@media screen and (max-width:997px)
+{
+    .hide
+    {
+        display: none;
+    }
+    
+    .mt4 a
+    {
+        font-size: 2.5vw;
+        line-height: 1vw;
+    }
+
+}
